@@ -1,5 +1,93 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+}
+
+.card-base {
+  background: white;
+  width: 350px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+//Diamantes
+.diamond::before,
+.diamond::after {
+  content: "♦";
+  color: red;
+  font-size: 100px;
+  position: absolute;
+}
+
+.diamond::before {
+  top: 10px;
+  left: 10px;
+}
+
+.diamond::after {
+  bottom: 10px;
+  right: 10px;
+  transform: rotate(180deg);
+}
+// Corazones
+.heart::before,
+.heart::after {
+  content: "♥";
+  color: red;
+  font-size: 100px;
+  position: absolute;
+}
+
+.heart::before {
+  top: 10px;
+  left: 10px;
+}
+
+.heart::after {
+  bottom: 10px;
+  right: 10px;
+  transform: rotate(180deg);
+}
+// Trebol
+.club::before,
+.club::after {
+  content: "♣";
+  color: black;
+  font-size: 100px;
+  position: absolute;
+}
+
+.club::before {
+  top: 10px;
+  left: 10px;
+}
+
+.club::after {
+  bottom: 10px;
+  right: 10px;
+  transform: rotate(180deg);
+}
+//Picas
+.spade::before,
+.spade::after {
+  content: "♠";
+  color: black;
+  font-size: 100px;
+  position: absolute;
+}
+
+.spade::before {
+  top: 10px;
+  left: 10px;
+}
+
+.spade::after {
+  bottom: 10px;
+  right: 10px;
+  transform: rotate(180deg);
 }
