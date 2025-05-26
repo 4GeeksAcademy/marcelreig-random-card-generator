@@ -12,10 +12,7 @@ body {
 .number {
   font-size: 100px;
   font-weight: bold;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  line-height: 500px;
 }
 
 .diamond::before,
