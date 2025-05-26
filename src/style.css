@@ -7,12 +7,8 @@ body {
 .card {
   width: 350px;
   height: 500px;
-  margin: 0 auto;
-  margin-top: 50px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  position: relative;
 }
+
 .number {
   font-size: 100px;
   font-weight: bold;
@@ -21,7 +17,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-//Diamantes
+
 .diamond::before,
 .diamond::after {
   content: "♦";
@@ -40,7 +36,6 @@ body {
   right: 10px;
   transform: rotate(180deg);
 }
-// Corazones
 .heart::before,
 .heart::after {
   content: "♥";
@@ -59,7 +54,7 @@ body {
   right: 10px;
   transform: rotate(180deg);
 }
-// Trebol
+
 .club::before,
 .club::after {
   content: "♣";
@@ -78,7 +73,6 @@ body {
   right: 10px;
   transform: rotate(180deg);
 }
-//Picas
 .spade::before,
 .spade::after {
   content: "♠";
