@@ -15,6 +15,8 @@ body {
   line-height: 500px;
 }
 
+/* diamantes */
+
 .diamond::before,
 .diamond::after {
   content: "♦";
@@ -33,6 +35,9 @@ body {
   right: 10px;
   transform: rotate(180deg);
 }
+
+/* corazones */
+
 .heart::before,
 .heart::after {
   content: "♥";
@@ -52,6 +57,8 @@ body {
   transform: rotate(180deg);
 }
 
+/* tréboles */
+
 .club::before,
 .club::after {
   content: "♣";
@@ -70,6 +77,9 @@ body {
   right: 10px;
   transform: rotate(180deg);
 }
+
+/* picas */
+
 .spade::before,
 .spade::after {
   content: "♠";
